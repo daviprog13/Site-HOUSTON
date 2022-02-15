@@ -1,0 +1,23 @@
+.redes_sociais{
+  display: flex;
+  flex-direction: column;
+}
+.redes_sociais div:nth-child(1){
+  margin-top: 10px;
+}
+.redes_sociais div:nth-child(2){
+  margin: 30px 0;
+}
+.redes_sociais a{
+  color: #fff;
+  margin-top: 10px;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;  
+  border: 1px solid #fff;
+  transition: .3s ease-in-out;
+}
+.redes_sociais a:hover{
+  border-radius: 50px;
+  border: 3px solid #fff;
+}

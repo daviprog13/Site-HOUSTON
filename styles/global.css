@@ -1,0 +1,27 @@
+/* font-family: 'Montserrat', sans-serif;
+peso 300
+400
+500
+600
+*/
+@import 'top.css';
+@import 'quite.css';
+@import 'footer.css';
+.container{
+  width:680px;
+  margin:0 auto;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+
+a{
+  text-decoration: none;
+}
+
+ul{
+  list-style:none;
+}
