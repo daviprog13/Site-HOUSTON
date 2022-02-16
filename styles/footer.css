@@ -1,16 +1,13 @@
 .redes_sociais{
   display: flex;
-  flex-direction: column;
+  padding-top: 25px;
 }
-.redes_sociais div:nth-child(1){
-  margin-top: 10px;
+.redes_sociais div{
+  margin-right: 20px;
 }
-.redes_sociais div:nth-child(2){
-  margin: 30px 0;
-}
+
 .redes_sociais a{
   color: #fff;
-  margin-top: 10px;
   font-size: 20px;
   padding: 10px;
   border-radius: 5px;  
