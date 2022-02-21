@@ -84,6 +84,9 @@
   font-weight: bold;
   display: none;
 }
+.contact.active{
+  display: block;
+}
 .contact h2{
   font-size: 40px;
   text-transform: uppercase;
