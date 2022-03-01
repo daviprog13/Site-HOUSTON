@@ -20,16 +20,7 @@
   display: block;
   animation: show-right .7s forwards;
 }
-@keyframes show-right{
-  from{
-    opacity: 0;
-    transform: translateX(300px);
-  }
-  to{
-    opacity: 1;
-    transform: translateX(0px);
-  }
-}
+
 .qs h2{
   font-size: 40px;
   text-transform: uppercase;
@@ -86,6 +77,7 @@
 }
 .contact.active{
   display: block;
+  animation: show-right .7s forwards;
 }
 .contact h2{
   font-size: 40px;
@@ -180,4 +172,15 @@ justify-content: flex-end;
   font-weight: 400;
   margin-left: 10px;
   color: #ffffff;
+}
+
+@keyframes show-right{
+  from{
+    opacity: 0;
+    transform: translateX(300px);
+  }
+  to{
+    opacity: 1;
+    transform: translateX(0px);
+  }
 }

@@ -62,7 +62,7 @@
    animation: top-bot2 .4s forwards;
   }
   
-  .list li:nth-child(4):hover::after{
+  .list li:nth-child(4).active::after{
     position: absolute; 
    animation: top-bot4 .4s forwards;
   }
