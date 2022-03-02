@@ -1,15 +1,16 @@
+import outsideClick from "./outsideClick.js";
 export default function contato() {
   const btn = document.querySelector('.list li:nth-child(4)')
   const contact = document.querySelector('.contact')
-  const quemSomos = document.querySelector('.qs')
-  function handleClick(event) {
-    this.classList.add('active')    
-  }
-  function addContact(event) {
-    contact.classList.add('active')
+  
+  function handleClick() {
+    this.classList.add('active')
+    contact.classList.add('active')  
+    outsideClick(this,()=>{
+      this.classList.remove('active')
+      contact.classList.remove('active')
+    }, contact)  
   }
   btn.addEventListener('click', handleClick)
-  btn.addEventListener('click', addContact)
+ 
 }
-
-/* colocar se quem somos estver com active desativa do comntato */

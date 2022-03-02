@@ -1,12 +1,15 @@
+import outsideClick from "./outsideClick.js";
 export default function nossasSolucoes(){
-  const btns = document.querySelectorAll('.list li')
+  const btn = document.querySelector('.list li:nth-child(2)')
 const nossasS = document.querySelector('.ns')
- function openNS() {  
-   nossasS.classList.add('active')
- }
-function closeNS() {
+ function openNS() { 
+  this.classList.add('active')
+  nossasS.classList.add('active')
+  outsideClick(this, ()=>{
+    this.classList.remove('active')
   nossasS.classList.remove('active')
-}
-btns[1].addEventListener('mouseover', openNS)
-btns[1].addEventListener('mouseout', closeNS)
+  }, nossasS)
+ }
+
+btn.addEventListener('click', openNS)
 }

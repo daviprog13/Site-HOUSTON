@@ -53,18 +53,18 @@
   margin-bottom: 10px;
   cursor: pointer;
   }
-  .list li:first-child:hover::after{
+  .list li:first-child.active::after{
    position: absolute; 
    animation: top-bot1 .4s forwards;
   }
-  .list li:nth-child(2):hover::after{
+  .list li:nth-child(2).active::after{
     position: absolute; 
    animation: top-bot2 .4s forwards;
   }
   
   .list li:nth-child(4).active::after{
     position: absolute; 
-   animation: top-bot4 .4s forwards;
+    animation: top-bot4 .4s forwards;
   }
   @keyframes top-bot1{
     from{

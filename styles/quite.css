@@ -1,6 +1,5 @@
 .info{
   display: flex;
-  border: 1px solid #fff;
   height: 380px;
   position: relative;
   font-family: 'Montserrat', sans-serif;
@@ -174,6 +173,14 @@ justify-content: flex-end;
   color: #ffffff;
 }
 
+.size img{
+  position:absolute; 
+  top:37%;
+  left:43%;
+  transform: translate(-50%, -50%);
+  animation: rotate 100s infinite linear;
+}
+
 @keyframes show-right{
   from{
     opacity: 0;
@@ -182,5 +189,13 @@ justify-content: flex-end;
   to{
     opacity: 1;
     transform: translateX(0px);
+  }
+}
+@keyframes rotate {
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(7000deg);
   }
 }
