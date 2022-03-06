@@ -10,9 +10,7 @@ function openQS() {
     quemSomos.classList.remove('active')
   }, quemSomos)
 }
-
 btn.addEventListener('click', openQS)
-
 }
 
 

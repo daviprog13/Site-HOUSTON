@@ -10,6 +10,5 @@ const nossasS = document.querySelector('.ns')
   nossasS.classList.remove('active')
   }, nossasS)
  }
-
 btn.addEventListener('click', openNS)
 }

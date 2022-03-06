@@ -7,6 +7,7 @@ peso 300
 @import 'top.css';
 @import 'quite.css';
 @import 'footer.css';
+@import 'responsive.css';
 .container{
   width:680px;
   margin:0 auto;
@@ -24,4 +25,10 @@ a{
 
 ul{
   list-style:none;
+}
+.content_mobile{
+  display: none;
+}
+.info .menu-mobile{
+  display: none;
 }

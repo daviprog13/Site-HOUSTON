@@ -1,0 +1,199 @@
+@media (max-width:700px){
+  body{
+    position:relative;
+  }
+  .content{
+    background-image: url(../imgs/bg_respo.png);
+  }
+  .list{
+    display: none;
+  }
+  [data-menu]{
+    display:block;
+    border: 2px solid #ffffff;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .content .container{
+    width:460px;
+    margin:0 auto;
+  }
+  .content .top{
+    align-items:center;
+  }
+  .content .info .menu-mobile{
+    display:block;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 100;
+    border: 1px solid #fff;
+    background-color: #fff;
+    width: 100%;
+    background-color: #f0d1bf;
+    overflow-y: scroll;
+    height: 100%;
+  }
+  .content .info .content-mobile{
+    width:440px;
+    margin:0 auto;
+  }
+  .content-mobile .icon-mobile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+  }
+  .content-mobile .icon-mobile div i{
+    font-weight: bold;
+    cursor: pointer;
+    padding: 15px;
+  }
+  .content .info .menu-mobile dt{
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing:-1px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  cursor: pointer;
+  width: 50%;
+  }
+  .content .info .menu-mobile dt::before{
+    content:'';
+    display: inline-block;
+    vertical-align: middle;
+    height:3px;
+    width:8px;
+    background-color:#000;
+    margin-right:5px;
+  }
+  .content .info .menu-mobile dd{
+  font-size: 13px;
+  letter-spacing: .05rem;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+  display:none;
+  margin-bottom: 15px;
+  }
+  .content .info .menu-mobile dd.active{
+    display:block;
+    animation: slideDonw .3s forwards;
+  }
+   
+  .content .menu-mobile .redes_sociais {
+    position: fixed;
+    bottom: 15px;
+    align-items: flex-end;
+    padding: 0 0 0 20px;
+    justify-content: flex-end;
+    width: 100%;
+    flex-direction: column;
+    z-index: -1;
+  }
+  .content .menu-mobile .redes_sociais a{
+    border: none;
+    color: #000;
+    
+  }
+  .content .menu-mobile .redes_sociais div{
+    padding: 10px;
+  }
+  
+  @keyframes slideDonw {
+    from{
+      opacity: 0;
+      max-height: 0;
+    }
+    to{
+      opacity: 1;
+      max-height: 400px;
+    }
+  }
+  .fale-conosco input {
+    display: block;
+    width: 60%;
+    background-color: transparent;
+    border: 1px solid #000;
+    padding: 10px;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10px;
+  }
+  .fale-conosco input::placeholder{
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+  }
+  .fale-conosco textarea{
+    width: 60%;
+    background-color: transparent;
+    border: 1px solid black;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+  }
+  .fale-conosco textarea::placeholder{
+    color: #000000;
+    font-weight: 600;
+  }
+  .btns{
+    margin: 15px 0;
+  }
+  .btn_enviar{
+    background-color: transparent;
+    border: 1px solid #000;
+    padding: 7px 15px;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-right: 5px;
+    outline: none;
+  }
+  .btn_enviar:hover{
+    background-color: #000;
+    color:#f0d1bf;
+    transition: .3s ease-in-out;
+    
+  }
+  .btn_falar{
+    background-color: #000;
+    padding: 5px 15px;
+    border-radius: 20px;
+    margin-left: 5px;
+    color: #f0d1bf;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 2px solid #000;
+  }
+  .btn_falar:hover{
+    background-color: transparent;
+    border: 2px solid #000;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    transition: .3s ease-in-out;
+  }
+  .btns span{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .info_contacts {
+    border: 1px solid #000; /* aqui */
+  }
+  .info_contacts font{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;  
+    margin-right: 10px;
+  }
+  .info_contacts a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin-left: 10px;
+    color: #ffffff;
+  }
+}
