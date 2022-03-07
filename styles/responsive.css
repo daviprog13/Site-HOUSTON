@@ -2,11 +2,11 @@
   body{
     position:relative;
   }
-  .content{
-    background-image: url(../imgs/bg_respo.png);
-  }
   .list{
     display: none;
+  }
+  .content{
+    height:1000px;
   }
   [data-menu]{
     display:block;
@@ -16,14 +16,14 @@
     border-radius: 5px;
   }
   .content .container{
-    width:460px;
+    max-width:460px;
     margin:0 auto;
   }
   .content .top{
     align-items:center;
   }
   .content .info .menu-mobile{
-    display:block;
+    display:none;
     position: fixed;
     top:0;
     left: 0;
@@ -34,6 +34,10 @@
     background-color: #f0d1bf;
     overflow-y: scroll;
     height: 100%;
+  }
+  .content .info .menu-mobile.active{
+    display: block;
+    animation:show-right .5s forwards;
   }
   .content .info .content-mobile{
     width:440px;
@@ -83,14 +87,13 @@
   }
    
   .content .menu-mobile .redes_sociais {
-    position: fixed;
-    bottom: 15px;
+    position: sticky;
+    bottom: 0px;
     align-items: flex-end;
     padding: 0 0 0 20px;
     justify-content: flex-end;
     width: 100%;
     flex-direction: column;
-    z-index: -1;
   }
   .content .menu-mobile .redes_sociais a{
     border: none;
@@ -133,6 +136,7 @@
     color: #000000;
     font-family: 'Montserrat', sans-serif;
     padding: 10px;
+    outline: none;
   }
   .fale-conosco textarea::placeholder{
     color: #000000;
@@ -172,7 +176,7 @@
   }
   .btn_falar:hover{
     background-color: transparent;
-    border: 2px solid #000;
+    border: 1px solid #000;
     color: #000;
     font-family: 'Montserrat', sans-serif;
     transition: .3s ease-in-out;
@@ -182,18 +186,30 @@
     font-weight: 400;
     font-family: 'Montserrat', sans-serif;
   }
-  .info_contacts {
-    border: 1px solid #000; /* aqui */
+  .fale{
+    position:relative;
+    width: 93%;
+    z-index: 1;
   }
-  .info_contacts font{
+  .info_contacts {
+    position: absolute;
+    top: 70px;
+    right: -122px;
+    transform: rotate(-90deg);
+  }
+  .fale .info_contacts font{
+    color: #000;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 400;  
+    font-weight: 600;  
     margin-right: 10px;
+    display: block;
+    margin-left: 10px;
+    margin-bottom: 5px;
   }
   .info_contacts a{
     font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     margin-left: 10px;
-    color: #ffffff;
+    color: #000;
   }
 }
