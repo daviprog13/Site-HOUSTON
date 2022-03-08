@@ -37,7 +37,7 @@
   }
   .content .info .menu-mobile.active{
     display: block;
-    animation:show-right .5s forwards;
+    animation:show-right .5s ease-in-out;
   }
   .content .info .content-mobile{
     width:440px;
