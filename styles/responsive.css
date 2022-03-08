@@ -60,6 +60,10 @@
     font-weight: bold;
     cursor: pointer;
     padding: 15px;
+    position: fixed;
+    top: 4%;
+    right: 20%;
+    z-index: 20;
   }
   .content .info .menu-mobile dt{
   font-size: 20px;
