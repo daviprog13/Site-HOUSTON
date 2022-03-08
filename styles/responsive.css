@@ -54,7 +54,6 @@
   .content .info .content-mobile{
     width:90%;
     margin:0 auto;
-    border: 1px solid black;
   }
   .content-mobile .icon-mobile{
     display: flex;
@@ -80,6 +79,7 @@
   margin-bottom: 15px;
   cursor: pointer;
   width: 100%;
+  border: 1px solid black;
   }
   .content .info .menu-mobile dt::before{
     content:'';
