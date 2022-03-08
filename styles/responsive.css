@@ -52,8 +52,9 @@
   }
   
   .content .info .content-mobile{
-    width:95%;
+    width:90%;
     margin:0 auto;
+    border: 1px solid black;
   }
   .content-mobile .icon-mobile{
     display: flex;
@@ -78,7 +79,7 @@
   font-weight: 600;
   margin-bottom: 15px;
   cursor: pointer;
-  width: 50%;
+  width: 100%;
   }
   .content .info .menu-mobile dt::before{
     content:'';
