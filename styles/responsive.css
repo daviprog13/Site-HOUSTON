@@ -65,10 +65,7 @@
     font-weight: bold;
     cursor: pointer;
     padding: 15px;
-    position: fixed;
-    top: 4%;
-    right: 20%;
-    z-index: 20;
+   
   }
   .content .info .menu-mobile dt{
   font-size: 16px;
@@ -79,7 +76,6 @@
   margin-bottom: 15px;
   cursor: pointer;
   width: 100%;
-  border: 1px solid black;
   }
   .content .info .menu-mobile dt::before{
     content:'';
@@ -109,7 +105,7 @@
     align-items: flex-end;
     padding: 0 0 0 20px;
     justify-content: flex-end;
-    width: 100%;
+    width: 90%;
     flex-direction: column;
   }
   .content .menu-mobile .redes_sociais a{
