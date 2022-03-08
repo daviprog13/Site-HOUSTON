@@ -1,3 +1,8 @@
+@media only screen and (min-width: 600px) and (max-width: 2000px){
+  .content{
+    height:950px;
+    }
+}
 @media (max-width:600px){
   body{
     position:relative;
@@ -16,11 +21,13 @@
     border-radius: 5px;
   }
   .content .container{
-    max-width:320px;
+    max-width:360px;
     margin:0 auto;
   }
   .content .top{
     align-items:center;
+    justify-content: space-between;
+    margin: 0 50px;
   }
   .content .info .menu-mobile{
     display:none;
@@ -38,6 +45,10 @@
   .content .info .menu-mobile.active{
     display: block;
     animation:show-right .5s ease-in-out;
+  }
+  .redes_sociais{
+    display: flex;
+    justify-content:space-between
   }
   .content .info .content-mobile{
     width:440px;
