@@ -27,8 +27,10 @@
   .content .top{
     align-items:center;
     justify-content: space-around;
+    margin:0 auto;
   }
   .content .info .menu-mobile{
+    width: 100%;
     display:none;
     position: fixed;
     top:0;
@@ -47,7 +49,7 @@
   }
   
   .content .info .content-mobile{
-    width:440px;
+    width:81%;
     margin:0 auto;
   }
   .content-mobile .icon-mobile{
