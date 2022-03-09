@@ -64,6 +64,13 @@
   text-align: right;
   margin-top: 10px;
 }
+.email-1{
+  display: flex;
+  flex-direction: column;
+}
+.email-2 input{
+  width: 100%;
+}
 .contact{ 
   color: #ffffff;
   text-align: right;

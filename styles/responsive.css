@@ -1,23 +1,7 @@
-@media only screen and (min-width: 600px) and (max-width: 2000px){
+@media only screen and (min-width: 600px) and (max-width: 1280px){
   .content{
     height:950px;
-  }
-}
-
-@media (max-width:320px){
-  .btn_enviar{
-    background-color: transparent;
-    border: 1px solid #000;
-    padding: 5px 7px;
-    color: #000;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    text-transform: uppercase;
-    cursor: pointer;
-    border-radius: 20px;
-    margin-right: 5px;
-    outline: none;
-  }
+    }
 }
 @media (max-width:600px){
   body{
@@ -142,7 +126,7 @@
       max-height: 800px;
     }
   }
-  .fale-conosco input {
+  .fale .fale-conosco input {
     display: block;
     width: 60%;
     background-color: transparent;
@@ -152,12 +136,12 @@
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 10px;
   }
-  .fale-conosco input::placeholder{
+  .fale .fale-conosco input::placeholder{
     color: #000000;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
   }
-  .fale-conosco textarea{
+  .fale .fale-conosco textarea{
     width: 60%;
     background-color: transparent;
     border: 1px solid black;
@@ -166,17 +150,12 @@
     padding: 10px;
     outline: none;
   }
-  .fale-conosco textarea::placeholder{
+  .fale .fale-conosco textarea::placeholder{
     color: #000000;
     font-weight: 600;
   }
-  .fale .btns{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: first baseline;
-  }
-      
+  .btns{
+    margin: 15px 0;
   }
   .btn_enviar{
     background-color: transparent;
@@ -245,17 +224,4 @@
     margin-left: 10px;
     color: #000;
   }
-  @media only screen and (min-width: 100px) and (max-width: 370px){
-    .btn_enviar{   
-      padding: 5px 7px;    
-    }
-    .btn_falar{
-      padding: 5px 7px;
-      border-radius: 20px;
-      margin-left: 5px;
-      color: #f0d1bf;
-      font-weight: bold;
-      text-transform: uppercase;
-      border: 2px solid #000;
-    }
-  }
+}

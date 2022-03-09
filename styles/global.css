@@ -10,14 +10,13 @@ peso 300
 @import 'responsive.css';
 @import 'responsive_2.css';
 .container{
-  width:680px;
+  width:84%;
   margin:0 auto;
 }
 body{
   background-color: #232c40;
   background-image: linear-gradient(45deg, #232c40 0%, #69487c 20%, #e55c7d 36%, #7d2950 60%, #301f30 80%, #1d252e 100%);
 }
-
 *{
   margin: 0;
   padding: 0;
