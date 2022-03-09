@@ -10,7 +10,7 @@ peso 300
 @import 'responsive.css';
 @import 'responsive_2.css';
 .container{
-  width:84%;
+  width:54%;
   margin:0 auto;
 }
 body{
